@@ -1,0 +1,89 @@
+{
+  "format_version": 1,
+  "scope": "Core FSCR implementation and complete cached populations for the named result tables",
+  "records": {
+    "source_dialogues": 994,
+    "primary_pair_probes": 15904,
+    "heldout_state_pair_probes": 5208,
+    "mquake_pair_cases": 5996,
+    "text_fixtures": 16
+  },
+  "files": {
+    ".gitignore": {
+      "bytes": 50,
+      "sha256": "d9b68f671f8e04fd615adab948390f907a41c88e9835c240ac2931ceeb70d4fb"
+    },
+    "README.md": {
+      "bytes": 4899,
+      "sha256": "6eefcaaa1c7b1d7f6e9b0937b16571960e262dc216a62e997047aaaa9640d05b"
+    },
+    "data/dialogues/part-01.jsonl": {
+      "bytes": 3245515,
+      "sha256": "58eef60839bd33bef6376ac7065fc55c1f169a8253d4ab74b4a6750c55e343bc"
+    },
+    "data/dialogues/part-02.jsonl": {
+      "bytes": 3273334,
+      "sha256": "554fa4bc45553abb166fd1b897a56bf4eb19428b3e284df9e49c062e8e008e9f"
+    },
+    "data/dialogues/part-03.jsonl": {
+      "bytes": 3322307,
+      "sha256": "72f3a7ef76d41859aff38415d27f900a5aac15d028c08537ff765258320e42c8"
+    },
+    "data/dialogues/part-04.jsonl": {
+      "bytes": 3341819,
+      "sha256": "f52cc8257b8096e089047a42f97e472d5224f51bff98f6e789c8be07c775e72d"
+    },
+    "data/examples.jsonl": {
+      "bytes": 107666,
+      "sha256": "95c0b64f3f5a01ede0da386f0fd4b37028460b4f6cea515e11a44cbb4d11a513"
+    },
+    "data/main.csv": {
+      "bytes": 1654337,
+      "sha256": "1dd68054499941341f7fa8a40f5e3d038ae548e8c7d5c2a6c2581d27441cd581"
+    },
+    "data/mquake_scores.csv": {
+      "bytes": 369782,
+      "sha256": "06370d41ba5a1ea8e76e4ad508ac8dc3a7c3f09f4b3d81fb842956aca8c6d13b"
+    },
+    "data/state_inputs.csv": {
+      "bytes": 809289,
+      "sha256": "f66b57413ed7a1ad1b97451d3d631ab9f3e84b4c9eb14b854b910caedccc13dd"
+    },
+    "fscr/__init__.py": {
+      "bytes": 98,
+      "sha256": "b86ee54d7446bd9dc30f249e7dc81ef293947f06e54c278b673432696498f2b1"
+    },
+    "fscr/__main__.py": {
+      "bytes": 1523,
+      "sha256": "a8056cf67db4085c7007b589f29724bf3fd1a7b1634579ffef3f683d54b152f0"
+    },
+    "fscr/scoring.py": {
+      "bytes": 4839,
+      "sha256": "3c2bcce70b6df595fec9ec4c32ddbe69ce0f0fbe05809026919f2f6965cad0c7"
+    },
+    "fscr/state.py": {
+      "bytes": 4902,
+      "sha256": "c1490db91a572821b013728672e78431b6a9ea96b326ee8b4a894b90e7dee48f"
+    },
+    "results/reference_clustered_inference.json": {
+      "bytes": 3304,
+      "sha256": "29ff13bac21be9b1081dfdd43675baede3d70dc6682427a78083fe2492114aa2"
+    },
+    "results/reference_main.json": {
+      "bytes": 9745,
+      "sha256": "a22e94f3fe74b9936bca3b0b4c656b677582e0df9c038c0537112021992ab1e4"
+    },
+    "results/reference_state_inputs.csv": {
+      "bytes": 3809,
+      "sha256": "0521a3f67a58cb34c912a0b2498c533b3fb80ce59749d8ccea57bb5e4c158ea4"
+    },
+    "scripts/clustered.py": {
+      "bytes": 1977,
+      "sha256": "48fbce6921e1a0c8d0df673164a7b1d65747e7f9da488df6fb0899dd3d706f33"
+    },
+    "scripts/reproduce.py": {
+      "bytes": 10059,
+      "sha256": "6c4b31acd8d278a548be59505867bf6522a2cdaff8b7454e880d105e7736248e"
+    }
+  }
+}
